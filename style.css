@@ -1,0 +1,683 @@
+* {
+    margin: 0;
+    padding: 0; 
+    font-family: "Proxima Nova","Verdana","Avenir Next";
+
+}
+
+
+/* HERO CONTAINER */
+
+.hero-container {
+    background-image: linear-gradient(190deg, rgba(6, 6, 245, 0.878), skyblue);
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 18px;
+}
+
+.freepik-text {
+    font-size: 27px;
+    color: #fff;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 17px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15.8px;
+}
+
+.new {
+    text-decoration: none;
+    border: 1px solid;
+    padding: 3px 7px;
+    background-color: rgba(128, 212, 243, 0.757);
+    color: midnightblue;
+    font-weight: 700;
+    border: 0;
+    border-radius: 2px;
+}
+
+.third-links a {
+    margin-left: 13px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15.6;
+}
+
+.third-links a:nth-child(2) {
+    color: gold;
+}
+
+.third-links a:nth-child(4) {
+    border: 1px solid;
+    padding: 5px 10px;
+}
+
+.second-container {
+    text-align: center;
+    padding: 120px 0px;
+}
+
+.second-container h2 {
+    font-size: 35px;
+    line-height: 70px;
+    color: #fff;
+}
+
+.second-container p {
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.second-container input:nth-child(1) {
+    height: 40px;
+    width: 747px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 2px solid;
+    border: 0;
+    border-radius: 2px;
+}
+.second-container input:last-child{
+    height: 40px;
+    width: 130px;
+    padding-left: 10px;
+    border-radius: 2px;
+    border: 0;
+
+}
+
+.inputField{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.second-container a {
+    text-decoration: none;
+    border: 2px solid;
+    margin-left: 10px;
+    padding: 6px 20px;
+    color: #fff;
+    background-color: rgba(186, 189, 190, 0.778);
+    background-blend-mode: overlay;
+    border: 0;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 40px;
+    margin-right: 20px;
+}
+
+.image1 {
+    border: 3px solid;
+    border-color: rgba(128, 212, 243, 0.757);
+    width: 100%;
+    height: 21vh;
+    border-radius: 24px;
+    padding: 5px;
+    background-size: cover;
+}
+
+.image2 {
+    border: 3px solid;
+    border-color: rgba(128, 212, 243, 0.757);
+    width: 100%;
+    height: 21vh;
+    border-radius: 24px;
+    padding: 5px;
+    background-size: cover;
+}
+
+.newTwo {
+    text-decoration: none;
+    border: 2px solid;
+    padding: .5px 9px;
+    background-color: rgba(128, 212, 243, 0.757);
+    color: rgba(31, 31, 117, 0.781);
+    font-size: 18px;
+    border: 0;
+}
+
+.image3 {
+    border: 3px solid;
+    border-color: rgba(128, 212, 243, 0.757);
+    width: 100%;
+    height: 21vh;
+    border-radius: 24px;
+    padding: 5px;
+    background-size: cover;
+}
+
+.image4 {
+    border: 3px solid;
+    border-color: rgba(128, 212, 243, 0.757);
+    width: 100%;
+    height: 21vh;
+    border-radius: 24px;
+    padding: 5px;
+    background-size: cover;
+}
+
+.controlH2 h2 {
+    color: #fff;
+    margin-top: 16px;
+}
+
+
+/* SECOND PART */
+
+.craft-containerBackground {
+    border: 2px solid transparent;
+    height: 13vh;
+    background-color: midnightblue;
+    color: #fff;
+}
+
+.wrap-craftContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 25px;
+}
+
+.wrap-craftContainer a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: gold;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.wrap-craftContainer p {
+    font-size: 24px;
+}
+
+.wrap-craftContainer button {
+    padding: 10px 21px;
+    background-image: linear-gradient(240deg, rgba(6, 6, 245, 0.878), skyblue);
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+
+/* THIRD PART */
+
+.explore-container {
+    text-align: center;
+}
+
+.explore-container span {
+    color: blue;
+}
+
+.explore-container h1 {
+    font-size: 30px;
+    line-height: 60px;
+    margin-top: 80px;
+}
+
+.explore-container p {
+    font-size: 23px;
+}
+
+.gallery-one {
+    border: 2px solid;
+    height: 406px;
+    width: 630px;
+    background-image: url(./images/laptoponthetableimage.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 0;
+    border-radius: 10px;
+}
+
+.sub-galleryone {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+
+.boxOne {
+    border: 2px solid;
+    height: 200px;
+    width: 313px;
+    background-image: url(./images/netfliximage.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 0;
+    border-radius: 8px;
+}
+
+.boxTwo {
+    border: 2px solid;
+    height: 200px;
+    width: 313px;
+    background-image: url(./images/dataanalysis2.png);
+    background-size: cover;
+    background-position: center;
+    border: 0;
+    border-radius: 8px;
+}
+
+.boxThree {
+    border: 2px solid;
+    height: 200px;
+    width: 313px;
+    background-image: url(./images/somethingGreatimage.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 0;
+    border-radius: 8px;
+}
+
+.boxFour {
+    border: 2px solid;
+    height: 200px;
+    width: 313px;
+    background-image: url(./images/laptop4.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 0;
+    border-radius: 8px;
+}
+
+.sub-gallerytwo {
+    display: flex;
+    gap: 10px;
+}
+
+.photos-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+
+/* FOURTH PART */
+
+.unlock-container {
+    margin-top: 60px;
+    margin-left: 28px;
+    line-height: 40px;
+}
+
+.unlock-container h1 {
+    font-size: 34px;
+    letter-spacing: 2px;
+}
+
+.unlock-container p {
+    font-size: 24px;
+}
+
+.unlock-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.unlock-images h2 {
+    color: #fff;
+    margin-top: 280px;
+    text-align: center;
+}
+
+.unlock-images p {
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+}
+
+
+.unlock-images .unlock-imageone p:hover{
+    opacity: .9;
+    transition: all 1s ease;
+}
+
+.unlock-images .unlock-imagetwo p:hover{
+    opacity: .9;
+    transition: all 1s ease;
+}
+
+.unlock-images .unlock-imagethree p:hover{
+    opacity: .9;
+    transition: all 1s ease;
+}
+
+.unlock-images .unlock-imagefour p:hover{
+    opacity: .9;
+    transition: all 1s ease;
+}
+
+.unlock-imageone {
+    height: 340px;
+    width: 270px;
+    background-image: url(./images/laptoponthetableimage.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    border: 0;
+    border-radius: 11px;
+    background-color: rgba(0, 0, 0, 0.651); 
+}
+.unlock-imageone:hover{
+    box-shadow: 10px 10px 22px  rgba(58, 56, 56, 0.354);
+    transform: translateY(-13%);
+    transition: all 2s ease;
+    cursor: pointer;
+}
+
+.unlock-imagetwo {
+    height: 340px;
+    width: 270px;
+    background-image: url(./images/somethingGreatimage.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 11px;
+    background-blend-mode: overlay;
+}
+.unlock-imagetwo:hover{
+    box-shadow: 10px 10px 22px rgba(58, 56, 56, 0.354);
+    transform: translateY(-13%);
+    cursor: pointer;
+    transition: all 2s ease;
+}
+
+.unlock-imagethree {
+    height: 340px;
+    width: 270px;
+    background-image: url(./images/presentations3.png);
+    background-size: cover;
+    background-position: center;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 11px; 
+    background-blend-mode: overlay;
+}
+.unlock-imagethree:hover{
+    box-shadow: 10px 10px 22px  rgba(58, 56, 56, 0.354);
+    transform: translateY(-13%);
+    transition: all 2s ease;
+    cursor: pointer;
+}
+
+.unlock-imagefour {
+    height: 340px;
+    width: 270px;
+    background-image: url(./images/netfliximage.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 11px;
+    background-blend-mode: overlay;
+}
+.unlock-imagefour:hover{
+    box-shadow: 10px 10px 22px  rgba(58, 56, 56, 0.354);
+    transform: translateY(-13%);
+    transition: all 2s ease;
+    cursor: pointer;
+}
+
+
+/* Five Part */
+.readyTo{
+    text-align: center;
+    margin-top: 5rem; 
+}
+
+.readyTo h2{
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+
+.readyTo h2 span{
+    color: blue;
+}
+
+.readyTo p{
+    font-size: 21px;
+    margin-bottom: 1rem;
+    letter-spacing: .5px;
+}
+
+.increasedSection {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.increasedSection h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.increasedSection p{
+    font-size: 18px;
+    letter-spacing: .4px;
+    color: grey;
+    margin-bottom: 1rem;
+}
+
+.increasedSection a{
+    background: orange;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 2px;
+    margin-top: 3rem;
+}
+
+/* Sixth Part */
+.sectionSixBackground{
+    margin-top: 3rem;
+    border: 2px solid;
+    border: 0;
+    height: 22rem;
+    background-image: linear-gradient(40deg, rgb(2, 2, 58), crimson, orange);
+}
+.flexSixSection{
+    display: flex;
+    justify-content: space-around;
+}
+.imageSixSection img{
+    width: 32rem;
+}
+
+.chooseSearch{
+    margin-top: 6rem;
+}
+
+.chooseSearch p{
+font-size: 21px;
+color: whitesmoke;
+margin-bottom: 10px;
+}
+
+.chooseSearch h1{
+    font-size: 35px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    margin-bottom: 3rem;
+}
+
+.chooseSearch span{
+    color: orange;
+}
+
+.chooseSearch a{
+    background: blue;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+/* sectionSixBackground */
+.sectionSevenBackground{
+    height: 30rem;
+}
+
+.innerSevenBackground{
+    height: 25rem;
+    margin: 40px;
+    border-radius: 10px;
+    background-color: skyblue;
+}
+
+.flexSevenContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imageSevenSection img{
+    width: 32rem;
+}
+
+.joinFreepikContainer{
+    margin-top: 4rem;
+}
+
+.joinFreepikContainer h2{
+    font-size: 25px;
+    margin-bottom: 2rem;
+}
+
+.joinFreepikContainer p{
+    max-width: 29rem;
+    line-height: 1.3;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.joinFreepikContainer span{
+    color: blue;
+}
+
+.joinFreepikContainer a{
+    text-decoration: none;
+    background-color: blue;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+/* Footer A */
+.footerLinks{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 1rem;
+} 
+
+.footerLinks h3{
+    margin-bottom: 1rem;
+    font-size: 21px;
+    color: #fff;
+    padding-top: 1rem;
+    text-transform: uppercase;
+}
+
+.footerLinks h4{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+}
+
+.footerLinks li{
+    list-style-type: none;
+    font-size: 17px;
+}
+
+.footerLinks li a{
+    text-decoration: none;
+    line-height: 2rem;
+    color: grey;
+}
+
+.footerLinks li a:hover{
+    color: #fff;
+}
+
+.footerBackground{
+    background: #000002;
+}
+
+.socialMediaLinks .facebook{
+    background: blue;
+    padding: 10px 20px; 
+    color: #fff;
+}
+
+.socialMediaLinks .instagram{
+    background-image: linear-gradient(553deg, red, blue, red, yellow);
+    padding: 10px 19px; 
+    color: #fff; 
+}
+
+.socialMediaLinks .twitter{
+    background: rgb(33, 73, 204);
+    color: #fff;
+    padding: 10px 28px;  
+}
+
+.socialMediaLinks .pinterest{
+    background: red;
+    color: #fff;
+    padding: 10px 23px;  
+}
+
+.socialMediaLinks .youtube{
+    background: red;
+    padding: 10px 24px; 
+    color: #fff; 
+}
+
+.socialMediaLinks .links{
+    line-height: 3rem;
+    border-radius: 10px;
+}
+
+.footerLinks button{
+    padding: 10px 30px;
+    background: blue;
+    border: 0;
+    border-radius: 3px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footerLinks button:hover{
+    border: 2px double blue;
+    background: white;
+    color: #000;
+    font-weight: 400;
+    transition: all ease-in 1s;   
+}
